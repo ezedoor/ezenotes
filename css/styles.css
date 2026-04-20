@@ -1,0 +1,70 @@
+body {
+    background-color:rgb(188, 170, 144);
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.new-open-buttons-container,
+#save-delete-buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.new-note,
+.open-note,
+.save-note,
+.delete-note {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background:white;
+    transition: all 0.3s ease;
+}
+
+.new-note:hover,
+.open-note:hover,
+.save-note:hover,
+.delete-note:hover {
+    background: black;
+    color: white;
+}
+
+#textarea-container,
+#save-delete-buttons-container {
+    display: flex;
+    justify-content: center;
+    display:none;
+}
+
+.note-content {
+    width: 70%;
+    height: 300px;
+    margin-top: 20px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background:white;
+    transition: all 0.3s ease;
+}
+
+.note-content:hover {
+    background: black;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
